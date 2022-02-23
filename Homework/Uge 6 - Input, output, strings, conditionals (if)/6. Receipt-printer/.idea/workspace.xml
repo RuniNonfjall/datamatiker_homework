@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d7a84b-2ffb-4ff2-9757-f8099cb8b925" name="Changes" comment="" />
+    <list default="true" id="824b53c8-c193-46d8-8d9e-edc21134e80f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/datamatiker_homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8. Find største tal/8. Find største tal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loops/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loops/Loops.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringBasics/StringBasics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 5 -Intro, programmering, variabler og operatorer/5. BMI beregner/5. BMI beregner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 5 -Intro, programmering, variabler og operatorer/5. DataTyper/5. DataTyper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 5 -Intro, programmering, variabler og operatorer/5. ErDinDateForUng/5. ErDinDateForUng.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 5 -Intro, programmering, variabler og operatorer/5. GaetEtTal/5. GaetEtTal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 5 -Intro, programmering, variabler og operatorer/5. HelloWorld/5. HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 5 -Intro, programmering, variabler og operatorer/5. TommeBeregner/5. TommeBeregner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. 3caPitlization/6. 3caPitlization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. Hej hvad heder du/6. Hej hvad heder du.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. Kageopgave_v1.0/6. Kageopgave_v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. Lonberegning/6. Lonberegning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. Name-parts-I/6. Name-parts-I.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. Receipt-printer/.idea/6. Receipt-printer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. Receipt-printer/Recipt-printer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uge 6 - Input, output, strings, conditionals (if).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 7 - Metoder/7. Kageopskrift v2.0/7. Kageopskrift v2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 7 - Metoder/7. Langt ud' i skoven v1.0/7. Langt ud' i skoven v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 7 - Metoder/7. Strings/7. Strings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 7 - Metoder/7. howToCallAMetode/7. howToCallAMetode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uge 8 - Loops and arrays/Uge 8 - Loops and arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../presentPet/presentPet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. Receipt-printer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/6. Receipt-printer/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25TldDtuJpljQmZGAmuPnxoPrgQ" />
+  <component name="ProjectId" id="25ULPfLR8BAZr5vK5KmcwvOT5J9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -75,16 +103,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Receipt-printer" />
+      <module name="Uge 6 - Input, output, strings, conditionals (if)" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -96,17 +119,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9d7a84b-2ffb-4ff2-9757-f8099cb8b925" name="Changes" comment="" />
-      <created>1645559043580</created>
+      <changelist id="824b53c8-c193-46d8-8d9e-edc21134e80f" name="Changes" comment="" />
+      <created>1645576696230</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645559043580</updated>
-      <workItem from="1645559044939" duration="1173000" />
-      <workItem from="1645561846699" duration="1003000" />
+      <updated>1645576696230</updated>
+      <workItem from="1645576697456" duration="258000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
