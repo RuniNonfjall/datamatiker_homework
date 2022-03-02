@@ -54,14 +54,14 @@ public class Main {
   }
 
   public void reverceString() {
-    String fornavn = "Thomass";
+    String fornavn = "Thomas";
     String reversedString = "";
 
 
     for (int i = fornavn.length() - 1; i >= 0; i--) {
       reversedString = reversedString + fornavn.charAt(i);
     }
-    System.out.printf("Reverse String! %nPrinter %s i omvendt rækkefølge: \t %s", fornavn, reversedString);
+    System.out.printf("Reverse String! %nPrinter %s i omvendt rækkefølge: %3s", fornavn, reversedString);
 
   }
 }
