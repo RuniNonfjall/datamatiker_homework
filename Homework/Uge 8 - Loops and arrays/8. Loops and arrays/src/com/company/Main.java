@@ -17,7 +17,7 @@ public class Main {
     obj.udskrivEtTegnAdGangen(fornavn);
     System.out.println();
 
-    int i = obj.findIndexOf("bob",'o');
+    int i = obj.findIndexOf("bob", 'o');
     //System.out.printf("Find Index Of! %nFinder bogstaven %c i navnet %s: \t", letter, input);
     System.out.println("Den er fundet på index: " + i);
     //System.out.println("Fejl bokstavet er ikke fundet! ERRORCODE404");
@@ -25,6 +25,11 @@ public class Main {
 
     obj.reverceString();
     System.out.println("");
+
+    String mOcKify = obj.mOcKify("Kukka i buks");
+    System.out.println(mOcKify);
+    obj.starBlock(50, 20);
+    obj.multiplikationstabel(10, 10);
 
   }
 
@@ -64,4 +69,38 @@ public class Main {
     System.out.printf("Reverse String! %nPrinter %s i omvendt rækkefølge: %3s", fornavn, reversedString);
 
   }
+
+  public String mOcKify(String input) {
+    String result = "";
+    for (int i = 0; i < input.length(); i++) {
+      char ch = input.charAt(i);
+      boolean toUpperCase = Math.random() > 0.5;
+      if (toUpperCase) {
+        result += Character.toUpperCase(ch);
+      } else {
+        result += Character.toLowerCase(ch);
+      }
+    }
+    return result;
+  }
+
+  public void starBlock(int width, int height) {
+
+    for (int i = 0; i < height; i++) {
+      for (int j = 0; j < width; j++) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+  }
+  public void multiplikationstabel(int width, int height) {
+
+    for (int i = 1; i < height +1 ; i++) {
+      for (int j = 1; j < width +1 ; j++) {
+        System.out.printf("%2d ", i*j);
+      }
+      System.out.println();
+    }
+  }
+
 }
