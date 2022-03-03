@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="824b53c8-c193-46d8-8d9e-edc21134e80f" name="Changes" comment="" />
+    <list default="true" id="6f8d4f34-93ff-46b3-bbc0-73d0217e27de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../6. Hej hvad heder du/src/com/company/HejHvadHederDu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6. Hej hvad heder du/src/com/company/HejHvadHederDu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../presentPet/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../presentPet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../presentPet/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../presentPet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../presentPet/presentPet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../presentPet/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Find det største tal/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Find det største tal/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/7. Strings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/src/com/company/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +35,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25ULPfLR8BAZr5vK5KmcwvOT5J9" />
+  <component name="ProjectId" id="25nrbEPZbwEKt8zwhf0PlDfSGSh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -78,8 +97,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -88,7 +107,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Uge 6 - Input, output, strings, conditionals (if)" />
+      <module name="Printer" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -105,18 +124,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="824b53c8-c193-46d8-8d9e-edc21134e80f" name="Changes" comment="" />
-      <created>1645576696230</created>
+      <changelist id="6f8d4f34-93ff-46b3-bbc0-73d0217e27de" name="Changes" comment="" />
+      <created>1646173761323</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645576696230</updated>
-      <workItem from="1645576697456" duration="258000" />
-      <workItem from="1645577539449" duration="114000" />
-      <workItem from="1645577679877" duration="184000" />
-      <workItem from="1645577883508" duration="6000" />
-      <workItem from="1645577908058" duration="43000" />
-      <workItem from="1645578061600" duration="1175000" />
-      <workItem from="1646170110241" duration="691000" />
+      <updated>1646173761323</updated>
+      <workItem from="1646173763429" duration="2749000" />
+      <workItem from="1646234301640" duration="7715000" />
+      <workItem from="1646255887322" duration="656000" />
+      <workItem from="1646267264686" duration="2000" />
     </task>
     <servers />
   </component>

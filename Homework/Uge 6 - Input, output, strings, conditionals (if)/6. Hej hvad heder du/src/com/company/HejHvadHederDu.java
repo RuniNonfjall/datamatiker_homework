@@ -7,7 +7,7 @@ public class HejHvadHederDu {
 
     System.out.print("Hvad er dit navn? ");
     Scanner keyboard = new Scanner(System.in);
-    String name = keyboard.next();
+    String name = keyboard.nextLine();
 
     System.out.printf("Værhilset %s! Hvor gammel er du? ", name);
     int age = keyboard.nextInt();
