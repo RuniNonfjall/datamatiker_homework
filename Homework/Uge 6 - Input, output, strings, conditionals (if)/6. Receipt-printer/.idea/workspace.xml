@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f8d4f34-93ff-46b3-bbc0-73d0217e27de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../6. Hej hvad heder du/src/com/company/HejHvadHederDu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6. Hej hvad heder du/src/com/company/HejHvadHederDu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../presentPet/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../presentPet/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../presentPet/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../presentPet/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../presentPet/presentPet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../presentPet/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Find det største tal/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Find det største tal/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/7. Strings.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Strings/src/com/company/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Er din date for ung 2.1 Forkert alder/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Er din date for ung 2.1 Forkert alder/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Er din date for ung 2.1 Forkert alder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Er din date for ung 2.1 Forkert alder/7. Er din date for ung 2.1 Forkert alder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Er din date for ung 2.2 adskildt i metoder/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Er din date for ung 2.2 adskildt i metoder/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Er din date for ung 2.2 adskildt i metoder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Uge 7 - Metoder/7. Er din date for ung 2.2 adskildt i metoder/7. Er din date for ung 2.2 adskildt i metoder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +124,7 @@
       <workItem from="1646234301640" duration="7715000" />
       <workItem from="1646255887322" duration="656000" />
       <workItem from="1646267264686" duration="2000" />
+      <workItem from="1647052198417" duration="1226000" />
     </task>
     <servers />
   </component>
