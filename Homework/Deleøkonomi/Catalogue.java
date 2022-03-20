@@ -8,7 +8,7 @@ public class Catalogue {
   private int size;
 
   //Husker størrelsen på catalogue
-  public Catalogue(int size) {
+  public Catalogue(String size) {
     this.size = size;
   }
 
@@ -37,17 +37,19 @@ public class Catalogue {
     item.setAvailable(true);
   }
 
-  public ArrayList<Item> getFullList() {
-    return items;
+  public Item[] getFullList() {
+    Item[] itemArr = new Item[items.size()];
+    return items.toArray(itemArr);
   }
 
-  public ArrayList<Item> getAvailableItems() {
+  public Item[] getAvailableItems() {
     ArrayList<Item> availableItems = new ArrayList<>();
     for (Item item : items) {
       if (item.getAvailable()) {
         availableItems.add(item);
       }
     }
-    return availableItems;
+    Item[] itemArr = new Item[availableItems.size()];
+    return availableItems.toArray(itemArr);
   }
 }

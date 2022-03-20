@@ -8,6 +8,7 @@ public class Item {
   public Item(String category, String description) {
     this.category = category;
     this.description = description;
+    this.available = true;
   }
 
 
@@ -28,11 +29,20 @@ public class Item {
   }
 
   public Boolean getAvailable() {
-    return available;
+    return this.available;
   }
 
   public void setAvailable(Boolean available) {
     this.available = available;
+  }
+
+  @Override
+  public String toString() {
+    return "Item{" +
+        "category='" + category + '\'' +
+        ", description='" + description + '\'' +
+        ", available=" + available +
+        '}';
   }
 }
 

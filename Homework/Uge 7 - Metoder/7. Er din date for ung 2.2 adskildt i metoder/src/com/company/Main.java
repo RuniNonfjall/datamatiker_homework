@@ -1,69 +1,97 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
-  //int minAge = 16;
-  //int maxAge = 60;
-  //int userAge=29;
-  //int dateAge=22;
+  int minAge = 16;
+  int maxAge = 60;
   //int i;
 
-
   public static void main(String[] args) {
+    Scanner keyboard = new Scanner(System.in);
 
-    //int input = 95;
-    //int minAge=16;
-    //int maxAge=60;
-    int userAge =9;
-    int dateAge = 22;
-    System.out.println("Indtast din alder: " + userAge);
+
+
+
     Main obj = new Main();
-    int i = obj.minimumAge(userAge);
-      if (i>0 ) {
-        System.out.printf("Du er for ung til at tage på en date! \nDu skal som minimum være %d år gammel\n", i);
-        return;
+
+    boolean foundValidAge = false;
+    while (!foundValidAge) {
+      int userAge = 0;
+
+      try {
+        System.out.print("Indtast din alder: ");
+        userAge = keyboard.nextInt();
+      } catch (Exception ex) {
+        System.out.println("Please input an integer. Try again.");
+        keyboard.next();
+        continue;
       }
-    int j = obj.maximumAge(userAge);
-      if (j > 0) {
-        System.out.printf("Du er for gammel til at tage på en date! \nDu er %d år eller ældre og er derfor for gammel til at gå på date\n", j);
-        return;
+
+
+      // Check if I am too young
+      if (userAge <= obj.minAge) {
+        System.out.println("Du er for ung til at gå på date.");
+        continue;
+      } // Check if I am too old
+      else if (userAge > obj.maxAge) {
+        System.out.println("Du er for gammel til at gå på date.");
+        continue;
       }
-    obj.tooYoung(dateAge, userAge);
-      if (true) {
+
+      int dateAge = 0;
+
+      try {
+        System.out.print("Indtast dine date's alder: ");
+        dateAge = keyboard.nextInt();
+      } catch (Exception ex) {
+        System.out.println("Please input an integer. Try again.");
+        keyboard.next();
+        continue;
+      }
+
+
+
+      // Check if date is too young
+      if (dateAge <= obj.minAge) {
+        System.out.printf("Din date er for ung til at tage på en date! \nHun skal som minimum være %d år gammel\n", obj.minAge);
+        continue;
+      }
+
+      // Check if date is too old
+      if (dateAge > obj.maxAge) {
+        System.out.printf("Din date er for gammel til at tage på en date! \nHun er %d år eller ældre og er derfor for gammel til at gå på date\n", obj.maxAge);
+        continue;
+      }
+
+      // Check if date is within my lower threshold
+      boolean dateIsToYoung = obj.tooYoung(dateAge, userAge);
+      if (dateIsToYoung) {
         System.out.println("Din date er for ung til dig, vælg en der er lidt ældre! ");
-
+        continue;
       }
 
-    obj.tooOld(dateAge, userAge);
-      if (true) {
+      // Check if date is within my max threshold
+      boolean dateIsToOld = obj.tooOld(dateAge, userAge);
+      if (dateIsToOld) {
         System.out.println("Din date er for gammel til dig, vælg en der er lidt yngre");
+        continue;
       }
 
+      // If we get all the way down to this line, we found a suitable date!
+      System.out.println("Du har fundet en passende date!!!! BINGO. Time 4 browjob");
+      break;
 
-  }
-
-  public int minimumAge(int userAge) {
-    int minAge=16;
-    int i;
-    if (minAge > userAge) {
-      return i=minAge;
-    }else {
-      return i=-1;
     }
-  }
 
-  public int maximumAge(int userAge) {
-    int maxAge=60;
-    int j;
-    if (maxAge < userAge) {
-      return j=maxAge;
-    }else {
-      return j = -1;
-    }
+
+
+
   }
 
   public boolean tooYoung(int dateAge, int userAge) {
     int userAgeLowerLimit = ((userAge / 2) + 7);
-    if (userAgeLowerLimit > dateAge) {
+    if (userAgeLowerLimit >= dateAge) {
       return true;
     }
     return false;
