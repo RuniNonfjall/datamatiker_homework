@@ -8,7 +8,7 @@ public class Catalogue {
   private int size;
 
   //Husker størrelsen på catalogue
-  public Catalogue(String size) {
+  public Catalogue(int size) {
     this.size = size;
   }
 

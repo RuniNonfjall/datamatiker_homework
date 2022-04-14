@@ -15,8 +15,8 @@ public class Main {
 
     Main obj = new Main();
 
-    boolean foundValidAge = false;
-    while (!foundValidAge) {
+    boolean amValidAge = false;
+    while (!amValidAge) {
       int userAge = 0;
 
       try {
@@ -25,21 +25,26 @@ public class Main {
       } catch (Exception ex) {
         System.out.println("Please input an integer. Try again.");
         keyboard.next();
-        continue;
-      }
 
+      }
 
       // Check if I am too young
       if (userAge <= obj.minAge) {
         System.out.println("Du er for ung til at gå på date.");
         continue;
       } // Check if I am too old
-      else if (userAge > obj.maxAge) {
+      if (userAge > obj.maxAge) {
         System.out.println("Du er for gammel til at gå på date.");
         continue;
       }
 
-      int dateAge = 0;
+      amValidAge=true;
+    }
+
+    boolean foundValidAge = false;
+    while (!foundValidAge) {
+
+      int dateAge;
 
       try {
         System.out.print("Indtast dine date's alder: ");
@@ -65,6 +70,8 @@ public class Main {
       }
 
       // Check if date is within my lower threshold
+
+      int userAge = 0;
       boolean dateIsToYoung = obj.tooYoung(dateAge, userAge);
       if (dateIsToYoung) {
         System.out.println("Din date er for ung til dig, vælg en der er lidt ældre! ");
@@ -79,7 +86,7 @@ public class Main {
       }
 
       // If we get all the way down to this line, we found a suitable date!
-      System.out.println("Du har fundet en passende date!!!! BINGO. Time 4 browjob");
+      System.out.println("Du har fundet en passende date!");
       break;
 
     }
@@ -91,18 +98,15 @@ public class Main {
 
   public boolean tooYoung(int dateAge, int userAge) {
     int userAgeLowerLimit = ((userAge / 2) + 7);
-    if (userAgeLowerLimit >= dateAge) {
-      return true;
+    return (userAgeLowerLimit >= dateAge);
+
     }
-    return false;
-  }
+
+
 
   public boolean tooOld(int dateAge, int userAge) {
     int userAgeUpperLimit = ((userAge - 7) * 2);
-    if (userAgeUpperLimit < dateAge) {
-      return true;
-    }
-    return false;
+    return userAgeUpperLimit < dateAge;
 
   }
 
